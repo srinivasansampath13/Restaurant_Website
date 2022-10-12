@@ -185,18 +185,33 @@ span {
     width: 100%;
     background-color: gray;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
     color: white;
-   
+    text-align: center;
 }
 .hotel-features-box-model2{
     width: 100%;
     background-color: tomato;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
     color: white;
     border-left: 3px solid white;
     border-right: 3px solid white;
+    text-align: center;
+}
+.padding-top-bottom15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+#icon1{
+    color: white;    
+}
+.sub-icon{
+    display: flex;
+    justify-content: center;
 }
