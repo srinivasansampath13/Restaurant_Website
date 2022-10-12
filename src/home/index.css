@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+#main-navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff7777;
+    color: white;
+    padding: 10px;
+}
+.header-title{
+    display: flex;
+    margin-right: 10px;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    background-color: #fb475e;
+    color: white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 20px;
+}
+i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#facebook{
+    font-size: 15px;
+    margin-left: 8px;
+    color: white;
+}
+.header-icons{
+    display: flex;
+}
+#facebook:hover{
+   font-size: 20px;
+}
+#header-logo{
+    display: flex;
+    align-items: center;
+}
+h2::first-letter{
+    color: black;
+    font-size: 36px;
+}
+#nav{
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main-page-navbar{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 15px;
+}
+.main-page-navbar:hover{
+    background-color: slateblue;
+    padding: 20px;
+    color: tomato;
+    font-size: 20px;
+}
+#main-nav-container .main-page-navbar:active{
+    background-color: slateblue;
+    padding: 20px;
+    color: tomato;
+    font-size: 20px;
+}
+.main-image{
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+#main-hotel-img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#main-hotel-title{
+    position: absolute;
+    top: 20%;
+}
+.main-text{
+    font-size: 35px;
+    color: white;
+}
+.main-para{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+span {
+    color: black;
+}
+#about-our-stay{
+    margin-top: 90px;
+    background-color: tomato; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#about-our-stay:hover{
+    margin-top: 90px;
+    background-color: blueviolet; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hotel-history{
+    display: flex;
+}
+.history-hotel-text{
+   padding: 20px;
+   height: 400;
+   background-color: #919191;
+}
+.hotel-history-img{
+    opacity: 0.8;
+}
+.history-text{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.hotel-history-para{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+}
+#history-hotel-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.read-more-text{
+    padding: 12px;
+    border-radius: 20px;
+    background-color: white;
+}
+.read-more-text:hover{
+    background-color: #fb475e;
+    color: white;
+}
+.footer{
+    background-color: #ff7777;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+}
+#hotel-features{
+    display: flex;
+    flex-direction: row;
+}
+.hotel-features-box-model{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+   
+}
+.hotel-features-box-model2{
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
